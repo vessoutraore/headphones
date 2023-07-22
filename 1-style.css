@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(./assets/fonts/source-sans-pro/SourceSansPro-Black.otf);
+    src: url(./assets/fonts/source-sans-pro/SourceSansPro-Bold.otf);
+    src: url(./assets/fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
+    src: url(./assets/fonts/source-sans-pro/SourceSansPro-Light.otf);
+    src: url(./assets/fonts/source-sans-pro/SourceSansPro-Regular.otf);
+    src: url(./assets/fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: Spin Cycle;
+    src: url(./assets/fonts/Spin-Cycle-OT/spincycle_3d_ot.otf);
+}
+
+/***  General  ***/
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/***  General  ***/
+
+/***  Hero Section  ***/
+#hero-section{
+    background-image: url(./assets/headphones_hero_1.jpg);
+    background-size: cover;
+    height: inherit;
+    width: inherit;
+    padding-bottom: 5%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    align-items: center;
+    /* height: inherit; */
+    color: white;
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-top: 5%;
+    /* margin: 5%; */
+    /* padding: 3% 15% 10% 7%; */
+
+    
+}
+.logo{
+    width: 70%;
+    /* border: 2px solid white; */
+
+}
+.logo img{
+    height: 40px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav a{
+    margin: 0 10px;
+}
+.hero-content-center{
+    /* margin: 10% 15% 2% 15%; */
+    text-align: center;
+    /* border: 2px solid black; */
+}
+#hero-content{
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+}
+#about-section{
+    /* height: 100px; */
+    width: auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+#result{
+    background-image: url(./assets/headphones_hero_2.jpg);
+    background-size: cover;
+    text-align: center;
+}
+#contact-us{
+    /* text-align: center; */
+    /* margin: 10% 15% 2% 15%; ; */
+}
+form{
+    height: inherit;
+    margin-top: 10%;
+    text-align: center;
+}
+.formfields{
+    text-align: left;
+    color: #071629;
+    border: none;
+    border-bottom: 1px solid #071629;
+    padding: 0; 
+    margin: 5% 0;
+    padding: 3%;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+input{
+    border: none;
+}
+.card-box, #pentagon-cards{
+    display: flex;
+}
+
+.cards{
+    margin: 5%;
+    text-align: center;
+}
+
+#pentagon-cards div{
+    /* background-image: url(./assets/pentagone.png); */
+    /* border: 1px solid black; */
+
+}
+.text-fit{
+    margin: 7% 15% 5% 15%; 
+    padding: 0 12%;
+}
+.margin {
+    margin: 5% 15%;
+}
+/* .font-weight-400{
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.font-weight-700{
+    font-weight: 700;
+}
+
+.font-weight-600{
+    font-weight: 600;
+} */
+
+/* .lr-margin{
+    margin: 0 5%;
+} */
+.call-to-action{
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 22px;
+    border: 1px solid #ff6565;
+    background: #FF6565;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+}
+.white{
+    color: #fff;
+}
+.dark{
+    color: #071629;
+}
+.text-small{
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.text-big{
+    text-align: center;
+    font-family: SourceSansPro;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    align-items: center;
+    /* height: inherit; */
+    color: white;
+    padding: 5% 10% ;
+    /* padding-left: 7%;
+    padding-right: 15%;
+    padding-top: 5%; */
+}
+footer{
+    background-color: #071629;
+    /* text-align: center; */
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 3%;
+
+}
